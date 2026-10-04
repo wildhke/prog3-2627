@@ -1,0 +1,30 @@
+{
+  "name": "Programmieren 3 Lecture 2026",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+          120
+        ],
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter"
+        }
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "oderwat.indent-rainbow",
+        "mechatroner.rainbow-json",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
